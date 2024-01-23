@@ -36,13 +36,50 @@
 </head>
 
 <body class="font-manrope">
-    <header>
+    <header class="container w-11/12 mx-3 lg:mx-auto">
         <!-- navbar -->
         <nav>
-
+            <div class="navbar">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                            <li><a><img src="images/search.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost text-2xl lg:text-4xl font-extrabold text-[#131318]">Hockey’s</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a>Home</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Pages</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="navbar-end gap-6">
+                    <a class="invisible lg:visible"><img src="images/search.png" alt=""></a>
+                    <a
+                        class="btn bg-shared-btn text-lg lg:text-xl font-bold border-none px-4 lg:px-5 py-2 text-white">Button</a>
+                </div>
+            </div>
         </nav>
         <!-- banner -->
-        <section class="container w-11/12 mx-3 lg:mx-auto">
+        <section>
             <div class="carousel w-full">
                 <div id="slide1" class="carousel-item relative w-full">
                     <img src="./images/1.png" class="w-full" />
@@ -80,7 +117,8 @@
                     </figure>
                     <div class="card-body items-center">
                         <h2 class="card-title text-xl font-semibold text-[#131318]">Prayer Facility</h2>
-                        <p class="text-[#13131899]">dg df dfsd fd</p>
+                        <p class="text-[#13131899]">87% of professional clubs have prayer facilities for the members!
+                        </p>
                     </div>
                 </div>
                 <!-- second card -->
@@ -92,7 +130,7 @@
                     </figure>
                     <div class="card-body items-center">
                         <h2 class="card-title text-xl font-semibold text-[#131318]">Experienced Coach</h2>
-                        <p class="text-[#13131899]"></p>
+                        <p class="text-[#13131899]">95% clubs provide opportunity to learn with experienced coach</p>
                     </div>
                 </div>
                 <!-- third card -->
@@ -103,8 +141,9 @@
                         </div>
                     </figure>
                     <div class="card-body items-center">
-                        <h2 class="card-title text-xl font-semibold text-[#131318]">Prayer Facility</h2>
-                        <p class="text-[#13131899]"></p>
+                        <h2 class="card-title text-xl font-semibold text-[#131318]">Senior Player</h2>
+                        <p class="text-[#13131899]">90% Members can get the opportunity to develop skill with senior
+                            players</p>
                     </div>
                 </div>
                 <!-- fourth card -->
@@ -115,8 +154,8 @@
                         </div>
                     </figure>
                     <div class="card-body items-center">
-                        <h2 class="card-title text-xl font-semibold text-[#131318]">Prayer Facility</h2>
-                        <p class="text-[#13131899]"></p>
+                        <h2 class="card-title text-xl font-semibold text-[#131318]">Training Ground</h2>
+                        <p class="text-[#13131899]">80% clubs are facilitated with proper training ground</p>
                     </div>
                 </div>
             </div>
@@ -125,7 +164,8 @@
         <section class="container w-11/12 mx-3 lg:mx-auto mt-12 lg:mt-24 text-center">
             <div class="border-y-2 border-dashed py-6 lg:py-8">
                 <h3 class="text-xl lg:text-4xl font-extrabold  text-[#131318]">Program Sections</h3>
-                <p class="font-medium text-[#13131899] mt-4 lg:mt-6">Currently there are many hockey clubs. Here is a survey of
+                <p class="font-medium text-[#13131899] mt-4 lg:mt-6">Currently there are many hockey clubs. Here is a
+                    survey of
                     some of these professional clubs</p>
             </div>
             <div class="text-left pt-6 lg:pt-12 grid lg:grid-cols-2 gap-6 mb-10 lg:mb-24">
